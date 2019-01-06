@@ -58,3 +58,5 @@ UI/sample/dentaku/calculator.kv
 UI/sample/dentaku/main.py
 UI/sample/dentaku/mplus-2c-regular.ttf
 UI/sample/hello/hello.py
+UI/back/mplus-2c-regular.ttf
+UI/back/.DS_Store
