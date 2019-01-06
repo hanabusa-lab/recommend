@@ -1,0 +1,20 @@
+version: "3"
+services:
+  nvim:
+    container_name: $CONTAINER_NAME
+    image: iimuz/neovim:v0.3.0-py7
+    network_mode: none
+    environment:
+      USER_ID: $USER_ID
+      GROUP_ID: $GROUP_ID
+      TZ: $TIME_ZONE
+    volumes:
+      - src:/src
+    working_dir: /src
+
+volumes:
+  src:
+    driver_opts:
+      type: none
+      device: ${PWD}/../../
+      o: bind
