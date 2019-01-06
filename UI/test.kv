@@ -1,0 +1,19 @@
+TextWidget:
+
+<TextWidget>:
+    BoxLayout:
+        orientation: 'vertical'
+        size: root.size
+
+        Image:
+            source: './image/movieList.jpg'
+
+
+        BoxLayout:
+            size_hint_y: 0.3
+            padding: 20,30,20, 10
+            Button:
+                id: button1
+                text: "レコメンド開始"
+                font_size: 60
+                on_press: root.buttonClicked()

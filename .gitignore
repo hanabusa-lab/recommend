@@ -51,3 +51,10 @@ ENV/
 env.bak/
 venv.bak/
 
+UI/back/main.py
+UI/back/test.kv
+UI/sample/.DS_Store
+UI/sample/dentaku/calculator.kv
+UI/sample/dentaku/main.py
+UI/sample/dentaku/mplus-2c-regular.ttf
+UI/sample/hello/hello.py
