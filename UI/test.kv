@@ -29,8 +29,19 @@ TestRoot
         orientation: 'vertical'
         size: root.size
 
-        Image:
-            source: './image/starwars.jpg'
+        BoxLayout:
+            Image:
+                source: './image/starwars.jpg'
+            BoxLayout:
+                orientation: 'vertical'
+                size_hint_x: 0.3
+                TextInput:  # タグ情報表示部分
+                    size_hint_y: 0.1                
+                    font_size: 45
+                    hint_text: 'タグ情報'
+                TextInput:  # タグ情報表示部分
+                    font_size: 30
+                    hint_text: 'SF、冒険、アメリカ映画、2017年公開、宇宙戦争、シリーズ物、デイジー・リドリー、ライアン・ジョンソン'
 
         BoxLayout:
             size_hint_y: 0.3
